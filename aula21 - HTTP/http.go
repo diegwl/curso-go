@@ -24,7 +24,7 @@ func main() {
 		w.Write([]byte("Hello World!"))
 	})
 
-	http.HandleFunc("/home", func(w http.ResponseWriter, r *http.Request) {
+	http.HandleFunc("/usuarios", func(w http.ResponseWriter, r *http.Request) {
 		w.Write([]byte("Carregar página de usuários!"))
 	})
 
